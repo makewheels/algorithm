@@ -5,6 +5,7 @@ public class BubbleSort {
         int[] array = SortUtil.getArray();
         for (int i = 0; i < array.length; i++) {
             for (int j = i; j < array.length; j++) {
+                
             }
         }
     }
