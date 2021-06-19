@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.algorithm;
+package com.github.makewheels.algorithm.basic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
