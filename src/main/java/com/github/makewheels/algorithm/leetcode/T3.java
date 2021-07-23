@@ -1,11 +1,7 @@
 package com.github.makewheels.algorithm.leetcode;
 
-public class T31 {
-    public void nextPermutation(int[] nums) {
-
-    }
-
+public class T3 {
     public static void main(String[] args) {
-
+        new T3();
     }
 }
