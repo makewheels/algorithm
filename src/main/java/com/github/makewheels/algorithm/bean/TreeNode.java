@@ -1,9 +1,9 @@
-package com.github.makewheels.algorithm.leetcode;
+package com.github.makewheels.algorithm.bean;
 
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
