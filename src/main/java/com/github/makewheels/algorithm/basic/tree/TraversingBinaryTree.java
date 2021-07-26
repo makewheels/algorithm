@@ -1,11 +1,12 @@
 package com.github.makewheels.algorithm.basic.tree;
 
+import com.github.makewheels.algorithm.bean.TreeNode;
 import org.junit.Test;
 
 public class TraversingBinaryTree {
 
     public void firstOrder(TreeNode root) {
-        System.out.print(root.data + " ");
+        System.out.print(root.val + " ");
         if (root.left != null)
             firstOrder(root.left);
         if (root.right != null)
@@ -15,7 +16,7 @@ public class TraversingBinaryTree {
     public void middleOrder(TreeNode root) {
         if (root.left != null)
             firstOrder(root.left);
-        System.out.print(root.data + " ");
+        System.out.print(root.val + " ");
         if (root.right != null)
             firstOrder(root.right);
     }
@@ -25,7 +26,7 @@ public class TraversingBinaryTree {
             firstOrder(root.left);
         if (root.right != null)
             firstOrder(root.right);
-        System.out.print(root.data + " ");
+        System.out.print(root.val + " ");
     }
 
     @Test

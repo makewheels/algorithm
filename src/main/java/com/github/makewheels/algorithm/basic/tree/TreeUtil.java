@@ -1,5 +1,7 @@
 package com.github.makewheels.algorithm.basic.tree;
 
+import com.github.makewheels.algorithm.bean.TreeNode;
+
 public class TreeUtil {
     public static TreeNode createTree() {
         TreeNode t1 = new TreeNode(1);
