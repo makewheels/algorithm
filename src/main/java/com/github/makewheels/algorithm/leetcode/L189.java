@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-public class T189 {
+public class L189 {
     public void rotate(int[] nums, int k) {
         k = k % nums.length;
         if (k == 0 || k == nums.length)

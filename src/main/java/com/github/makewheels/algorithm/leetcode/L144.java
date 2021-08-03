@@ -5,7 +5,7 @@ import com.github.makewheels.algorithm.bean.TreeNode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class T144 {
+public class L144 {
     public void preorder(TreeNode node, List<Integer> list) {
         if (node == null)
             return;
@@ -21,6 +21,6 @@ public class T144 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new T144().preorderTraversal(null));
+        System.out.println(new L144().preorderTraversal(null));
     }
 }

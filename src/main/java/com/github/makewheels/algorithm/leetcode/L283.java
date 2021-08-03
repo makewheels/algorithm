@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import java.util.Arrays;
 
-public class T283 {
+public class L283 {
     public void moveZeroes(int[] nums) {
         int left = 0;
         int right = 0;
@@ -17,7 +17,7 @@ public class T283 {
 
     public static void main(String[] args) {
         int[] arr = {0, 1, 0, 3, 12};
-        new T283().moveZeroes(arr);
+        new L283().moveZeroes(arr);
         System.out.println(Arrays.toString(arr));
     }
 }

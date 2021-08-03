@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.ListNode;
 
-public class T203 {
+public class L203 {
     public ListNode removeElements(ListNode head, int val) {
         //没有节点
         if (head == null)

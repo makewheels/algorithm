@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.ListNode;
 
-public class T24 {
+public class L24 {
     public ListNode swapPairs(ListNode head) {
         ListNode dummyHead = new ListNode();
         dummyHead.next = head;

@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-public class T374 {
+public class L374 {
     public int guess(int num) {
         return 0;
     }

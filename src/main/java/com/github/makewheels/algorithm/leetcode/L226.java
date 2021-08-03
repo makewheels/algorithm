@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.TreeNode;
 
-public class T226 {
+public class L226 {
     public TreeNode invertTree(TreeNode root) {
         //结束条件
         if (root == null)

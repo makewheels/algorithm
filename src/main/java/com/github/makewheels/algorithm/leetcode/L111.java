@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.TreeNode;
 
-public class T111 {
+public class L111 {
     public int minDepth(TreeNode root) {
 
         //我本身就没有

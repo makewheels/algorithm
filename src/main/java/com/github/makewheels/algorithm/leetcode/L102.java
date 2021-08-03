@@ -4,7 +4,7 @@ import com.github.makewheels.algorithm.bean.TreeNode;
 
 import java.util.*;
 
-public class T102 {
+public class L102 {
     /**
      * 队列 Queue<TreeNode> queue = new LinkedList<>();
      * 放入 offer

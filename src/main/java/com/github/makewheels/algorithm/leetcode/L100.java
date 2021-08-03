@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.TreeNode;
 
-public class T100 {
+public class L100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null)
             return true;

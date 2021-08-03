@@ -2,7 +2,7 @@ package com.github.makewheels.algorithm.leetcode;
 
 import com.github.makewheels.algorithm.bean.TreeNode;
 
-public class T101 {
+public class L101 {
     public boolean isSymmetric(TreeNode root) {
         return check(root, root);
     }

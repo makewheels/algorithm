@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-public class T11 {
+public class L11 {
     public int maxArea(int[] height) {
         int left = 0;
         int right = height.length - 1;
@@ -28,6 +28,6 @@ public class T11 {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
-        System.out.println(new T11().maxArea(arr));
+        System.out.println(new L11().maxArea(arr));
     }
 }
