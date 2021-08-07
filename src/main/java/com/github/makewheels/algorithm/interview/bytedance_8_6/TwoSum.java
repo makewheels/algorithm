@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.exam;
+package com.github.makewheels.algorithm.interview.bytedance_8_6;
 
 import java.util.HashMap;
 import java.util.Map;
