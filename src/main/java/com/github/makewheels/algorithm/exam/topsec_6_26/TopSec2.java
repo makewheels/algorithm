@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.exam.topsec;
+package com.github.makewheels.algorithm.exam.topsec_6_26;
 
 import java.util.Arrays;
 import java.util.Scanner;

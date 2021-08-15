@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.exam.shenxinfu;
+package com.github.makewheels.algorithm.exam.shenxinfu_8_7;
 
 import java.util.ArrayList;
 import java.util.List;
