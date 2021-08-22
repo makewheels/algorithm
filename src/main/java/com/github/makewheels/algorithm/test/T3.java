@@ -18,15 +18,19 @@ public class T3 {
             for (int j = 0; j < a1 - 1; j++) {
                 min = min * 10;
             }
-            for (int j = min; j <= 1000000; j++) {
+            for (int j = min; j <= Integer.MAX_VALUE; j++) {
                 if (j % a2 == 0) {
                     resultList.add(j);
                     break;
                 }
             }
+            resultList.add(Integer.MAX_VALUE);
         }
         for (Integer integer : resultList) {
-            System.out.println(integer);
+            if (integer == Integer.MAX_VALUE)
+                System.out.println(-1);
+            else
+                System.out.println(integer);
         }
     }
 }
