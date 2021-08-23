@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.test;
+package com.github.makewheels.algorithm.exam.pinduoduo_8_22;
 
 import java.util.ArrayList;
 import java.util.List;
