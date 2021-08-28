@@ -13,5 +13,6 @@ public class Test {
         System.out.println(list);
         list.remove(new Integer(1));
         System.out.println(list);
+        System.out.println("niubi");
     }
 }
