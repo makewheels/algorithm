@@ -1,6 +1,7 @@
 package com.github.makewheels.algorithm.exam.wangyihuyu_8_28;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -39,26 +40,52 @@ class Monster {
  * 9
  */
 public class T1 {
-    private static int handle(List<Monster> monsterList, int myAttack, int myDefense) {
-        int myHealth = 0;
+    private static Boolean check(List<Monster> monsterList, int myHealth, int myAttack, int myDefense) {
         for (Monster monster : monsterList) {
-            if (myAttack < monster.defense) {
-                return -1;
-            }
             while (true) {
+                //我没破防
+                if (myAttack <= monster.defense) {
+                    return null;
+                }
+                //我砍怪
                 monster.health -= myAttack - monster.defense;
+                //如果怪死了
                 if (monster.health <= 0) {
                     myHealth += -monster.health;
                     break;
                 }
-                int attackValue = monster.attack - myDefense;
-                if (Math.abs(myHealth) < attackValue) {
-                    myHealth = -attackValue;
+                //如果怪破我防
+                if (monster.attack > myDefense) {
+                    //怪砍我
+                    myHealth -= monster.attack - myDefense;
+                    //如果我死了
+                    if (myHealth <= 0) {
+                        return false;
+                    }
                 }
-                myHealth -= attackValue;
             }
         }
-        return -myHealth;
+        return true;
+    }
+
+    private static int test(List<Monster> monsterList, int myAttack, int myDefense) {
+        for (int i = 1; i < 10000; i++) {
+            List<Monster> copyMonsterList = new ArrayList<>(monsterList.size());
+            for (Monster monster : monsterList) {
+                Monster tempMonster = new Monster();
+                tempMonster.health = monster.health;
+                tempMonster.attack = monster.attack;
+                tempMonster.defense = monster.defense;
+                copyMonsterList.add(tempMonster);
+            }
+            Boolean check = check(copyMonsterList, i, myAttack, myDefense);
+            if (check == null) {
+                return -1;
+            } else if (check) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public static void main(String[] args) {
@@ -87,7 +114,7 @@ public class T1 {
                 monster.health = monsterProperties[2];
                 monsterList.add(monster);
             }
-            int handle = handle(monsterList, myProperties[0], myProperties[1]);
+            int handle = test(monsterList, myProperties[0], myProperties[1]);
             System.out.println(handle);
         }
     }
