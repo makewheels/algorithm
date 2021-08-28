@@ -1,11 +1,11 @@
-package com.github.makewheels.algorithm.interview;
+package com.github.makewheels.algorithm.exam.aibee_8_28;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class T3 {
+public class T4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String line1 = scanner.nextLine();
