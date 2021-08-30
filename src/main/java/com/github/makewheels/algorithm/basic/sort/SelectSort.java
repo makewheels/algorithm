@@ -1,5 +1,7 @@
 package com.github.makewheels.algorithm.basic.sort;
 
+import java.util.Arrays;
+
 public class SelectSort {
     private static int findMinIndex(int[] array, int startIndex) {
         int minIndex = startIndex;
@@ -21,6 +23,6 @@ public class SelectSort {
                 array[i] = temp;
             }
         }
-        SortUtil.print(array);
+        System.out.println(Arrays.toString(array));
     }
 }
