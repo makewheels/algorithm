@@ -10,17 +10,19 @@ public class L3 {
         int right = 0;
         Set<Character> set = new HashSet<>();
         while (right < s.length()) {
-            if (!set.contains(s.charAt(right))) {
-                set.add(s.charAt(right));
-                String substring = s.substring(left, right);
+            char rightChar = s.charAt(right);
+            if (!set.contains(rightChar)) {
+                set.add(rightChar);
+                String substring = s.substring(left, right + 1);
                 if (substring.length() > maxStr.length()) {
                     maxStr = substring;
                 }
             } else {
-                while (set.contains(s.charAt(right))) {
+                while (set.contains(rightChar)) {
                     set.remove(s.charAt(left));
                     left++;
                 }
+                set.add(rightChar);
             }
             right++;
         }
@@ -28,6 +30,6 @@ public class L3 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new L3().lengthOfLongestSubstring("bbbbb"));
+        System.out.println(new L3().lengthOfLongestSubstring("abcabcbb"));
     }
 }
