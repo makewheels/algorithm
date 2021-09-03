@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.test;
+package com.github.makewheels.algorithm.interview.tencent_chongqing_9_3;
 
 import java.util.Arrays;
 
