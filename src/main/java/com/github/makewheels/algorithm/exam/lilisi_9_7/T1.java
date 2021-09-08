@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.exam.lilisi;
+package com.github.makewheels.algorithm.exam.lilisi_9_7;
 
 import com.github.makewheels.algorithm.bean.ListNode;
 
