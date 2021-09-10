@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class Test {
+public class TestStream {
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 7, 9};
         List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
