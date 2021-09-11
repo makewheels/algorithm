@@ -34,7 +34,7 @@ public class T2 {
             return;
         }
         if (target == 0) {
-            ans.add(new ArrayList<Integer>(combine));
+            ans.add(new ArrayList<>(combine));
             return;
         }
         dfs(candidates, target, ans, combine, idx + 1);
