@@ -23,8 +23,8 @@ public class T2 {
     }
 
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> ans = new ArrayList<List<Integer>>();
-        List<Integer> combine = new ArrayList<Integer>();
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> combine = new ArrayList<>();
         dfs(candidates, target, ans, combine, 0);
         return ans;
     }
