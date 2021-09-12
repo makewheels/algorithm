@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.exam.aibee_8_28;
+package com.github.makewheels.algorithm.exam.e_8_28_aibee;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
