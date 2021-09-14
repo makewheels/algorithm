@@ -1,6 +1,5 @@
 package com.github.makewheels.algorithm.exam.e_9_14_yingjiao;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class T1 {
