@@ -1,6 +1,5 @@
 package com.github.makewheels.algorithm.exam.e_9_16_cisco;
 
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
