@@ -47,5 +47,7 @@ public class T2 {
     public static void main(String[] args) {
         T2 t2 = new T2();
         t2.workSchedule(3);
+        int a = 2;
+        System.out.println(a * 1.2);
     }
 }
