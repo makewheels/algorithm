@@ -9,7 +9,7 @@ import java.util.List;
 
 public class TestCountLines {
     public static void main(String[] args) {
-        File folder = new File("D:\\workSpace\\intellijidea");
+        File folder = new File("D:\\workSpace\\intellijidea\\universal-user-service");
         int count = 0;
         List<File> files = FileUtil.loopFiles(
                 folder, pathname -> pathname.isFile() && pathname.getName().endsWith(".java"));
