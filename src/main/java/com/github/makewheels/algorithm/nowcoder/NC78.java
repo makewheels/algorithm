@@ -7,14 +7,14 @@ public class NC78 {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode left = head;
-        ListNode right = head;
-        while (right != null) {
-            right = left.next;
-            left.next = left;
-            left = right;
-            right = right.next;
+        ListNode node = head;
+        ListNode prev = null;
+        while (node != null) {
+            ListNode next = node.next;
+            node.next = prev;
+            prev = node;
+            node = next;
         }
-        return right;
+        return prev;
     }
 }

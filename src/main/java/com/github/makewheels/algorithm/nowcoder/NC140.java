@@ -1,8 +1,8 @@
-package com.github.makewheels.algorithm.leetcode;
+package com.github.makewheels.algorithm.nowcoder;
 
-public class L912 {
-    public int[] sortArray(int[] nums) {
-        return quickSort(nums, 0, nums.length - 1);
+public class NC140 {
+    public int[] MySort(int[] arr) {
+        return quickSort(arr, 0, arr.length - 1);
     }
 
     private int[] quickSort(int[] arr, int left, int right) {
@@ -18,16 +18,13 @@ public class L912 {
     private int partition(int[] arr, int left, int right) {
         int pivot = arr[left];
         while (left < right) {
-            while (left < right && arr[right] >= pivot) {
+            while (left < right && arr[right] >= pivot)
                 right--;
-            }
             arr[left] = arr[right];
 
-            while (left < right && arr[left] <= pivot) {
+            while (left < right && arr[left] <= pivot)
                 left++;
-            }
             arr[right] = arr[left];
-
         }
         arr[left] = pivot;
         return left;
