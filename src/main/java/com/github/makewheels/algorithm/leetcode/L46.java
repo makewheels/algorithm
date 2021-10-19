@@ -2,7 +2,6 @@ package com.github.makewheels.algorithm.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class L46 {
@@ -13,12 +12,12 @@ public class L46 {
     public List<List<Integer>> permute(int[] nums) {
         used = new boolean[nums.length];
         Arrays.fill(used, false);
-        find(nums, 0);
+        find(nums);
         return ans;
     }
 
-    private void find(int[] nums, int index) {
-        if (index == nums.length) {
+    private void find(int[] nums) {
+        if (per.size() == nums.length) {
             ans.add(new ArrayList<>(per));
             return;
         }
@@ -27,7 +26,7 @@ public class L46 {
                 used[i] = true;
                 per.add(nums[i]);
 
-                find(nums, index + 1);
+                find(nums);
 
                 used[i] = false;
                 per.remove(per.size() - 1);
