@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.exam.e_9_29_shuidi;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class T1 {
     public ListNode reverseList(ListNode head) {

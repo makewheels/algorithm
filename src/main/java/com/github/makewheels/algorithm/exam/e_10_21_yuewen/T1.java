@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.exam.e_10_21_yuewen;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 public class T1 {
     public boolean isSameTree(TreeNode p, TreeNode q) {

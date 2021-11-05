@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class J22 {
     public ListNode detectCycle(ListNode head) {

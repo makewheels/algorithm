@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.interview.jingdong_10_25;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class TestMergeTwoLinkedListsBianli {
     public ListNode mergeTwoLinkedLists(ListNode l1, ListNode l2) {

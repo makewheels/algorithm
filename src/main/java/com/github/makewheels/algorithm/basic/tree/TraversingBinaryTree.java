@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.basic.tree;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 import org.junit.Test;
 
 public class TraversingBinaryTree {

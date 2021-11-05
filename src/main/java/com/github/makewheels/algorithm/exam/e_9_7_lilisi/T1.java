@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.exam.e_9_7_lilisi;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class T1 {
     public ListNode formatList(ListNode head) {

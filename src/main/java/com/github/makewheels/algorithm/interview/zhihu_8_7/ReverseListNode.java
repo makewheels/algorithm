@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.interview.zhihu_8_7;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class ReverseListNode {
     public static void main(String[] args) {

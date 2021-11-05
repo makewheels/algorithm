@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.exam.e_8_15_haoweilai;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class T2 {
     public ListNode reverseKGroup(ListNode list, int k) {

@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.exam.e_8_13_beike;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 public class T4 {
     public int maxSubTree(TreeNode root) {

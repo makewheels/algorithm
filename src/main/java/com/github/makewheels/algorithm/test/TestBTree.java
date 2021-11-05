@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.test;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 public class TestBTree {
     public boolean isPTree(TreeNode root) {

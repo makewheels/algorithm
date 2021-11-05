@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.bean;
+package com.github.makewheels.algorithm.basic.bean;
 
 public class TreeNode {
     public int val;

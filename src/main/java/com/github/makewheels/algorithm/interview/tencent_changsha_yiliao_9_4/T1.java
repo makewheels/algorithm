@@ -1,7 +1,7 @@
 package com.github.makewheels.algorithm.interview.tencent_changsha_yiliao_9_4;
 
 import com.github.makewheels.algorithm.basic.tree.TreeUtil;
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 import java.util.Deque;
 import java.util.LinkedList;

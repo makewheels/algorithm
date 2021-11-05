@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.nowcoder;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class NC4 {
     public boolean hasCycle(ListNode head) {

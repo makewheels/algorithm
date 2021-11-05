@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 public class L2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

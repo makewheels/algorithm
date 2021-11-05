@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 public class L100 {
     public boolean isSameTree(TreeNode p, TreeNode q) {

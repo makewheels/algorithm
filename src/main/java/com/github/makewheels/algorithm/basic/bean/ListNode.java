@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.bean;
+package com.github.makewheels.algorithm.basic.bean;
 
 public class ListNode {
     public int val;

@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.nowcoder;
 
-import com.github.makewheels.algorithm.bean.ListNode;
+import com.github.makewheels.algorithm.basic.bean.ListNode;
 
 /**
  * https://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca

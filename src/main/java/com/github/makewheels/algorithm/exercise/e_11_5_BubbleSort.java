@@ -1,6 +1,6 @@
-package com.github.makewheels.algorithm.exercise.e_11_4;
+package com.github.makewheels.algorithm.exercise;
 
-public class BubbleSort {
+public class e_11_5_BubbleSort {
 
     public int[] sortArray(int[] nums) {
         for (int i = nums.length - 2; i >= 0; i--) {

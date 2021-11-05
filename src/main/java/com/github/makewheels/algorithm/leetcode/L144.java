@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.leetcode;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

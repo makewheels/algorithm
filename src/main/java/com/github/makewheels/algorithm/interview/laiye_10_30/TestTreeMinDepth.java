@@ -1,6 +1,6 @@
 package com.github.makewheels.algorithm.interview.laiye_10_30;
 
-import com.github.makewheels.algorithm.bean.TreeNode;
+import com.github.makewheels.algorithm.basic.bean.TreeNode;
 
 public class TestTreeMinDepth {
     public int minDepth(TreeNode root) {
