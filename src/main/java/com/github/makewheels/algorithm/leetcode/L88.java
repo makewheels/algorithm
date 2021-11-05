@@ -1,23 +1,27 @@
 package com.github.makewheels.algorithm.leetcode;
 
-import java.util.Arrays;
-
 public class L88 {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int index = 0;
-        for (int i = m; i < m + n; i++) {
-            nums1[i] = nums2[index];
-            index++;
+        int[] res = new int[m + n];
+        int p1 = 0;
+        int p2 = 0;
+        int pres = 0;
+        while (p1 < m && p2 < n) {
+            if (nums1[p1] < nums2[p2]) {
+                res[pres] = nums1[p1];
+                p1++;
+            } else {
+                res[pres] = nums2[p2];
+                p2++;
+            }
+            pres++;
         }
-        Arrays.sort(nums1);
+        if (p1 < m) {
+            System.arraycopy(nums1, p1, res, pres, m - p1);
+        } else {
+            System.arraycopy(nums2, p2, res, pres, n - p2);
+        }
+        System.arraycopy(res, 0, nums1, 0, m + n);
     }
 
-    public static void main(String[] args) {
-        int[] nums1 = {1, 2, 3, 0, 0, 0};
-        int m = 3;
-        int[] nums2 = {2, 5, 6};
-        int n = 3;
-        new L88().merge(nums1, m, nums2, n);
-        System.out.println(Arrays.toString(nums1));
-    }
 }
