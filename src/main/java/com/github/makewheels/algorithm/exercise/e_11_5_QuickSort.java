@@ -21,12 +21,8 @@ public class e_11_5_QuickSort {
         int pivot = nums[left];
         while (left < right) {
             while (nums[right] >= pivot && left < right) right--;
-            System.out.println(Arrays.toString(nums)
-                    + "  nums[" + left + "]=" + nums[left] + " nums[" + right + "]=" + nums[right]);
             nums[left] = nums[right];
             while (nums[left] <= pivot && left < right) left++;
-            System.out.println(Arrays.toString(nums)
-                    + "  nums[" + left + "]=" + nums[left] + " nums[" + right + "]=" + nums[right]);
             nums[right] = nums[left];
         }
         nums[left] = pivot;
