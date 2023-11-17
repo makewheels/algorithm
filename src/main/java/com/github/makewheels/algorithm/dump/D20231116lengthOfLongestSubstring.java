@@ -3,7 +3,7 @@ package com.github.makewheels.algorithm.dump;
 import java.util.HashSet;
 import java.util.Set;
 
-public class D20231116 {
+public class D20231116lengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         int result = 0;
         int left = 0;
@@ -23,6 +23,6 @@ public class D20231116 {
     }
 
     public static void main(String[] args) {
-        new D20231116().lengthOfLongestSubstring("pwwkew");
+        new D20231116lengthOfLongestSubstring().lengthOfLongestSubstring("pwwkew");
     }
 }
