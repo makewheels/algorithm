@@ -9,10 +9,10 @@ public class D20231116 {
         int left = 0;
         int right = 0;
         Set<Character> set = new HashSet<>();
-        while (right < s.length() - 1) {
+        while (right <= s.length() - 1) {
             if (set.contains(s.charAt(right))) {
-                left = right + 1;
-                right = left + 1;
+                set.remove(s.charAt(left));
+                left++;
             } else {
                 set.add(s.charAt(right));
                 right++;
