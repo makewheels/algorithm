@@ -20,7 +20,7 @@ public class TestThreads {
                                 try {
                                     lock.wait();
                                 } catch (InterruptedException e) {
-                                    e.printStackTrace();
+                                    throw new RuntimeException(e);
                                 }
                             }
                             System.out.println(Thread.currentThread().getName() + "-" + number);
