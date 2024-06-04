@@ -1,4 +1,4 @@
-package com.github.makewheels.algorithm.interview.mijinzhineng_2024_05_30;
+package com.github.makewheels.algorithm.interview.milvzhineng_2024_05_30;
 
 import java.util.HashSet;
 import java.util.Set;
