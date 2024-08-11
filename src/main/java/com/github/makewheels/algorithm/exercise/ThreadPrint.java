@@ -17,7 +17,7 @@ public class ThreadPrint {
             try {
                 while (number <= max) {
                     synchronized (lock) {
-                        while (number % 3 != threadIndex) {
+                        if (number % 3 != threadIndex) {
                             lock.wait();
                         }
                         if (number <= max) {
